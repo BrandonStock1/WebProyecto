@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Home</title>
+  <title>QATAR 2022 - Registro</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -53,81 +53,11 @@
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php" class="active" >Home (Album)</a></li>
-          <li><a href="about.html">Minijuegos</a></li>
-          <li><a href="services.html">Tienda</a></li>
-          <li><a href="projects.html">Intercambio</a></li>
-          <li class="dropdown"><a href="#"><span>Coleccion</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Todas</a></li>
-              <li class="dropdown"><a href="#"><span>Paises</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-
-                  <li><a href="#">Escudos</a></li>
-
-                  <li class="dropdown"><a href="#"><span>Europa</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="#">Alemania</a></li>
-                      <li><a href="#">Belgica</a></li>
-                      <li><a href="#">Croacia</a></li>
-                      <li><a href="#">Dinamarca</a></li>
-                      <li><a href="#">España</a></li>
-                      <li><a href="#">Francia</a></li>
-                      <li><a href="#">Gales</a></li>
-                      <li><a href="#">Holanda</a></li>
-                      <li><a href="#">Inglaterra</a></li>
-                      <li><a href="#">Portugal</a></li>
-                      <li><a href="#">Polonia</a></li>
-                      <li><a href="#">Serbia</a></li>
-                      <li><a href="#">Suiza</a></li>
-                    </ul>
-
-                  <li class="dropdown"><a href="#"><span>America</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="#">Argentina</a></li>
-                      <li><a href="#">Brasil</a></li>
-                      <li><a href="#">Canada</a></li>
-                      <li><a href="#">Costa Rica</a></li>
-                      <li><a href="#">Ecuador</a></li>
-                      <li><a href="#">Estados Unidos</a></li>
-                      <li><a href="#">Mexico</a></li>
-                      <li><a href="#">Uruguay</a></li>
-                    </ul>
-                 
-                  <li class="dropdown"><a href="#"><span>Asia</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="#">Arabia Saudita</a></li>
-                      <li><a href="#">Corea del Sur</a></li>
-                      <li><a href="#">Iran</a></li>
-                      <li><a href="#">Japon</a></li>
-                      <li><a href="#">Tunez</a></li>
-                    </ul>
-
-                  <li class="dropdown"><a href="#"><span>Africa</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="#">Camerun</a></li>
-                      <li><a href="#">Ghana</a></li>
-                      <li><a href="#">Marruecos</a></li>
-                      <li><a href="#">Senegal</a></li>
-                    </ul>
-
-                  <li class="dropdown"><a href="#"><span>Oceania</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="#">Australia</a></li>
-                    </ul>
-                </ul>
-              <li><a href="#">Estadios</a></li>
-              <li><a href="#">Objetos</a></li>
-              <li><a href="#">Brillantes</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-
-    </div>
+          <li><a href="indexlogin2.php">Inicio de sesion</a></li>
+          <li><a href="indexlogin.php" class="active" >Registro</a></li>
   </header>
 
   <!-- ======= Hero Section ======= -->
@@ -137,8 +67,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Bienvenido al album de <span>QATAR 2022</span></h2>
-            <p data-aos="fade-up">En esta página web vas a poder coleccionar las figuiritas del mundial QATAR 2022 de forma digital, pero para poder conseguir figuritas vas a necesitar jugar una serie de minijuegos con los que podras conseguir moneditas que servirán para comprar los paquetes de figuritas</p>
+            <h2 data-aos="fade-down">Registro <br> Album digital de <span>QATAR 2022</span></h2>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Comenzar</a>
           </div>
         </div>
@@ -163,6 +92,7 @@
 
   </section>
 
+
   <main id="main">
 
     <!-- ======= Get Started Section ======= -->
@@ -180,7 +110,7 @@
 
           <div class="col-lg-5" data-aos="fade">
             <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Inicio de sesión</h3>
+              <h3>Registro</h3>
               <div class="row gy-3">
 
                 <div class="col-md-12">
@@ -214,7 +144,6 @@
             }
         }
 ?>
-                <p class="no_tengo_cuenta"><a href="./Registro.php">No tengo una cuenta</a> </p> <br> <br>
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Cargando...</div>
@@ -233,5 +162,21 @@
       </div>
     </section><!-- End Get Started Section -->
 
-    </body>
-    </html>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
