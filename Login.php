@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Registro</title>
+  <title>QATAR 2022 - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -56,8 +56,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="indexlogin2.php">Inicio de sesion</a></li>
-          <li><a href="indexlogin.php" class="active" >Registro</a></li>
+          <li><a href="Login.php" class="active" >Inicio de sesion</a></li>
+          <li><a href="Registro.php">Registro</a></li>
   </header>
 
   <!-- ======= Hero Section ======= -->
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Registro <br> Album digital de <span>QATAR 2022</span></h2>
+            <h2 data-aos="fade-down">Album digital de <span>QATAR 2022</span></h2>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Comenzar</a>
           </div>
         </div>
@@ -109,8 +109,8 @@
           </div>
 
           <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Registro</h3>
+          <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Inicio de sesión</h3>
               <div class="row gy-3">
 
                 <div class="col-md-12">
@@ -144,6 +144,7 @@
             }
         }
 ?>
+                <p class="no_tengo_cuenta"><a href="./Registro.php">No tengo una cuenta</a> </p> <br> <br>
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Cargando...</div>
