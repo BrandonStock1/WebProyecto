@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Contact</title>
+  <title>QATAR 2022 - Minijuegos</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -44,7 +44,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets/img/logo-qatar-1.png">
+       <img src="assets/img/logo-qatar-1.png">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -53,15 +53,15 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.php">Home (Album)</a></li>
-          <li><a href="minijuegos.html">Minijuegos</a></li>
+          <li><a href="minijuegos.html" class="active">Minijuegos</a></li>
           <li><a href="tienda.html">Tienda</a></li>
           <li><a href="intercambio.html">Intercambio</a></li>
-          <li><a href="contact.html" class="active" >Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
+      </nav><!-- .navbar -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
   <main id="main">
 
@@ -69,79 +69,17 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/copa-base.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Contact</h2>
+        <h2>Minijuegos</h2>
         <ol>
           <li><a href="index.php">Home</a></li>
-          <li>Contact</li>
+          <li>Minijuegos</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Dirección</h3>
-              <p>Av. del Libertador 6796, C1429 CABA</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p>qatar2022team@est.ort.edu.ar</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+54 911 0000 0000</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row gy-4 mt-1">
-
-          <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.1493463651827!2d-58.45634658519721!3d-34.549773862152044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42f9ed308c9%3A0xcd4d8e2268209306!2sEscuela%20ORT%20sede%20Belgrano!5e0!3m2!1ses!2sar!4v1659998736657!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row gy-4">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Cargando...</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
     <div class="footer-content position-relative">
@@ -164,6 +102,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Extra</h4>
             <ul>
@@ -195,38 +134,3 @@
 </body>
 
 </html>
-
-  <!--
-$receiving_email_address = 'contact@example.com';
-
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
-
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
-
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
-
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
-?>
--->

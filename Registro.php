@@ -13,7 +13,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo-qatar-1.png" rel="icon" type = "image/png">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -46,7 +46,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="Registro.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo-qatar-1.png">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
@@ -161,6 +161,212 @@
 
       </div>
     </section><!-- End Get Started Section -->
+
+    
+    <main id="main">
+
+<!-- ======= Alt Services Section ======= -->
+  <section id="alt-services" class="alt-services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-around gy-4">
+        <div class="col-lg-6 img-bg" style="background-image: url(assets/img/ventajas-picc.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h3>Ventajas de este proyecto</h3>
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+            <i class="bi bi-easel flex-shrink-0"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Ecologico</a></h4>
+              <p>No contamina el planeta ya que en vez de utilizar papel para producir las figuritas, es todo online!!</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-patch-check flex-shrink-0"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Rápido</a></h4>
+              <p>Es más fácil tanto comprar sobres, como buscar las figuritas que necesitas!</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-brightness-high flex-shrink-0"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Seguro</a></h4>
+              <p>No pueden robarte las figuritas como en nuestra infancia...</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-brightness-high flex-shrink-0"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Divertido</a></h4>
+              <p>Actualmente todo es online y es mas facil adapatarse y divertirse!</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Alt Services Section -->
+  
+
+  <!-- ======= Our Projects Section ======= -->
+  <section id="projects" class="projects">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>El proceso</h2>
+        <p>Dejaremos unas imagenes para describir nuestro trabajo a traves del tiempo...</p>
+      </div>
+
+      <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">Todas</li>
+          <li data-filter=".filter-Agosto">Agosto</li>
+          <li data-filter=".filter-Septiembre">Septiembre</li>
+          <li data-filter=".filter-Octubre">Octubre</li>
+          <li data-filter=".filter-Noviembre">Noviembre</li>
+        </ul><!-- End Projects Filters -->
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/brandonlab1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="assets/img/brandonlab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/laralab1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="assets/img/laralab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+        </div><!-- End Projects Container -->
+
+      </div>
+
+    </div>
+  </section><!-- End Our Projects Section -->
+
+<!-- ======= Testimonials Section ======= -->
+<section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Nosotros</h2>
+          <p>Los participantes de este proyecto de ORT 2022</p>
+        </div>
+
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/brandon.jpeg" class="testimonial-img" alt="">
+                  <h3>Brandon Stock</h3>
+                  <h4>Web creator</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    ...
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/juani.jpeg" class="testimonial-img" alt="">
+                  <h3>Juan Ignacio Cama</h3>
+                  <h4>Programador</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    ...
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/sasha.jpeg" class="testimonial-img" alt="">
+                  <h3>Sasha Cattaneo</h3>
+                  <h4>Games producer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    ...
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/gaston2.jpeg" class="testimonial-img" alt="">
+                  <h3>Gastón Edelberg</h3>
+                  <h4>Blockchain producer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    ...
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/lara.jpeg" class="testimonial-img" alt="">
+                  <h3>Lara Genovese</h3>
+                  <h4>Diseñadora</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    ...
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
 
 
   <div id="preloader"></div>
