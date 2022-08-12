@@ -47,7 +47,7 @@
           <li><a href="index.php" class="active" >Home</a></li>
           <li><a href="minijuegos.html">Minijuegos</a></li>
           <li><a href="tienda.html">Tienda</a></li>
-          <li><a href="projects.html">Intercambio</a></li>
+          <li><a href="intercambioS.html">Intercambio</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="album.php">Album</a></li>
 
@@ -522,7 +522,7 @@
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/brandonstock_" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>

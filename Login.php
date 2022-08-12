@@ -169,7 +169,7 @@
     <main id="main">
 
 <!-- ======= Alt Services Section ======= -->
-  <section id="alt-services" class="alt-services">
+  <section id="alt-tienda" class="alt-tienda">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
@@ -218,7 +218,7 @@
   
 
   <!-- ======= Our Projects Section ======= -->
-  <section id="projects" class="projects">
+  <section id="intercambio" class="intercambio">
     <div class="container" data-aos="fade-up">
 
       <div class="section-header">
