@@ -3,7 +3,7 @@
 ?>
 </head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href= "assets/css/registro.css">
+<link rel="stylesheet" href= "registro.css">
     <title>Registro</title>
 <body>
 <div class = "container-form sing-up">
@@ -15,7 +15,7 @@
         </div>
     </div>
 <section class ="form-registro">
-<img src="assets/img/logo qatar.png" width= "160px" height= "40px"> <br> <br><br>
+<img src="logo qatar.png" width= "160px" height= "40px"> <br> <br><br>
     <form action= "./Registro.php" method="POST">
         <label for ="nombre"> Nombre de usuario: </label>
         <input class= "controls" id= "pass" type="text" name="nombre_de_usuario"  placeholder ="Ingrese usuario"> <br>
