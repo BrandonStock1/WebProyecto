@@ -103,7 +103,7 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-easel flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Ecologico</a></h4>
+                <h4>Ecologico</a></h4>
                 <p>No contamina el planeta ya que en vez de utilizar papel para producir las figuritas, es todo online!!</p>
               </div>
             </div>
@@ -111,7 +111,7 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Rápido</a></h4>
+                <h4>Rápido</a></h4>
                 <p>Es más fácil tanto comprar sobres, como buscar las figuritas que necesitas!</p>
               </div>
             </div>
@@ -119,7 +119,7 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Seguro</a></h4>
+                <h4>Seguro</a></h4>
                 <p>No pueden robarte las figuritas como en nuestra infancia...</p>
               </div>
             </div>
@@ -127,7 +127,7 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Divertido</a></h4>
+                <h4>Divertido</a></h4>
                 <p>Actualmente todo es online y es mas facil adapatarse y divertirse!</p>
               </div>
             </div>
@@ -216,6 +216,7 @@
           </li>
 
         </ul>
+        
 
         <div class="tab-content">
 
@@ -319,7 +320,7 @@
 
               <hr>
 
-              <a href="Services.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -350,7 +351,7 @@
 
               <hr>
 
-              <a href="Services.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -381,7 +382,7 @@
 
               <hr>
 
-              <a href="services.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
