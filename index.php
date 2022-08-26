@@ -345,10 +345,11 @@
 
             <div class="post-img position-relative overflow-hidden">
               <img src="assets/img/paquetes - boceto 1.png" class="img-fluid" alt="">
-              <span class="post-date">Hasta 31/12</span>
             </div>
 
             <div class="post-content d-flex flex-column">
+
+              <br>
 
               <h3 class="post-title">Sobre (15 figuritas)</h3>
 
@@ -376,10 +377,11 @@
 
             <div class="post-img position-relative overflow-hidden">
               <img src="assets/img/paquetes - boceto 1.png" class="img-fluid" alt="">
-              <span class="post-date">Hasta 31/12</span>
             </div>
 
             <div class="post-content d-flex flex-column">
+
+            <br>
 
               <h3 class="post-title">Sobre (10 figuritas)</h3>
 
@@ -407,10 +409,11 @@
 
             <div class="post-img position-relative overflow-hidden">
               <img src="assets/img/paquetes - boceto 1.png" class="img-fluid" alt="">
-              <span class="post-date">Hasta 31/12</span>
             </div>
 
             <div class="post-content d-flex flex-column">
+
+            <br>
 
               <h3 class="post-title">Sobre (5 figuritas)</h3>
 
@@ -455,7 +458,7 @@
                 <div class="testimonial-item">
                   <img src="assets/img/brandon.jpeg" class="testimonial-img" alt="">
                   <h3>Brandon Stock</h3>
-                  <h4>Web creator</h4>
+                  <h4>Front end</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
@@ -473,7 +476,7 @@
                 <div class="testimonial-item">
                   <img src="assets/img/juani.jpeg" class="testimonial-img" alt="">
                   <h3>Juan Ignacio Cama</h3>
-                  <h4>Programador</h4>
+                  <h4>Back end</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
@@ -527,7 +530,7 @@
                 <div class="testimonial-item">
                   <img src="assets/img/lara.jpeg" class="testimonial-img" alt="">
                   <h3>Lara Genovese</h3>
-                  <h4>Diseñadora</h4>
+                  <h4>Designer</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
