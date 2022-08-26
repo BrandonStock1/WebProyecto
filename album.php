@@ -1,14 +1,11 @@
-<?php 
-    include_once("./mysql_functions.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>QATAR 2022 - Album</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALBUM DIGITAL QATAR 2022</title>
+  
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -32,7 +29,7 @@
 
 <body>
 
-  <header id="header" class="header d-flex align-items-center">
+  <header id="header-album" class="header d-flex align-items-center" style="background-image: url('assets/img/negro.png');">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.php" class="logo d-flex align-items-center">
@@ -44,29 +41,18 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="album.php" class="active" >Album</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="album.php" class="active">Album</a></li>
         </ul>
       </nav>
-
     </div>
   </header>
 
-  <section id="heroAlbum" class="heroAlbum">
+  <br>
+  <br>
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<body style="background-image: url('assets/img/negro.png');">
+  <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268373&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=1" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
+</body>
 
-      <div class="carousel-item active" style="background-image: url(assets/img/portada-pag0.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/copa-pag1.jpg)"></div>
-
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
-    </div>
-
-  </section>
+</html>

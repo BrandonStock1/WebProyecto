@@ -44,7 +44,7 @@
 
                     $query = "INSERT INTO usuario (nombre_de_usuario, mail, contrasenia) Values (?, ?, ?) ";
                     $result = DB::getInstance()->query($query, array($_POST["nombre_de_usuario"], $_POST["mail"], $_POST["contrasenia"]));
-                    //echo "<script>window.location.replace('./')</script>";
+                    echo "<script>window.location.replace('./')</script>";
                 }
             }
         }
