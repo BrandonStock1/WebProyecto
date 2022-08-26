@@ -207,7 +207,6 @@
     </section>
 
 
-
     <section id="constructions" class="constructions">
       <div class="container" data-aos="fade-up">
 
@@ -218,12 +217,11 @@
 
     <section id="features" class="features section-bg">
       <div class="container" data-aos="fade-up">
-
         <ul class="nav nav-tabs row  g-2 d-flex">
 
           <li class="nav-item col-3">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-              <h4>Juego 1</h4>
+              <h4>Juego 1 (Trivia)</h4>
             </a>
           </li>
 
@@ -238,6 +236,12 @@
             </a>
           </li>
 
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Informacion</h4>
+            </a>
+          </li>
+
         </ul>
         
 
@@ -246,65 +250,82 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <h3>Juego 1</h3>
+                <h3>Trivia</h3> 
                 <p class="fst-italic">
-                  ...
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href="minijuegos.html" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                 <img src="assets/img/bgfooter.jpg" alt="" class="img-fluid">
-                <a href="minijuegos.html" class="readmore stretched-link"></a>
               </div>
             </div>
           </div>
 
           <div class="tab-pane" id="tab-2">
             <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Juego 2</h3>
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>Trivia</h3> 
                 <p class="fst-italic">
-                  ...
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href="minijuegos.html" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                 <img src="assets/img/bgfooter.jpg" alt="" class="img-fluid">
-                <a href="minijuegos.html" class="readmore stretched-link"></a>
               </div>
             </div>
           </div>
 
           <div class="tab-pane" id="tab-3">
             <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Juego 3</h3>
-                 <p class="fst-italic">
-                  ...
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>Trivia</h3> 
+                <p class="fst-italic">
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
-                  <li><i class="bi bi-check2-all"></i> ...</li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href="minijuegos.html" class="bi bi-play"> Jugar</a></li>
                 </ul>
-               
               </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                 <img src="assets/img/bgfooter.jpg" alt="" class="img-fluid">
-                <a href="minijuegos.html" class="readmore stretched-link"></a>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>Informacion</h3>
+                <p class="fst-italic">
+                  Informacion del uso de TicCoins.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>...</li>
+                  <li><i class="bi bi-check2-all"></i>...</li>
+                  <li><i class="bi bi-check2-all"></i>...</li>
+                  <li><a href="minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/bgfooter.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
 
       </div>
     </section>
