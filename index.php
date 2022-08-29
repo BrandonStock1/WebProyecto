@@ -47,7 +47,7 @@
           <li><a href="index.php" class="active" >Home</a></li>
           <li><a href="minijuegos.html">Minijuegos</a></li>
           <li><a href="tienda.html">Tienda</a></li>
-          <li><a href="intercambioS.html">Intercambio</a></li>
+          <li><a href="intercambio.html">Intercambio</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="album.php">Album</a></li>
 

@@ -8,11 +8,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href= "style.css">
+    <link rel="stylesheet" href= "assets/css/style.css">
     <title>Inicio de sesion</title>
 </head>
-<body>
-    <div class = "container-form sing-up">
+<body style="background-image: url('assets/img/estadio.jpg');">
+    <div class = "container-form sing-up" > 
         <div class = "welcome-back">
             <div class = "message">
             <h2>Albúm de figuritas digital QATAR 2022</h2> 
@@ -21,7 +21,7 @@
         </div>
     </div>
 <section class ="form-login">
-<img src="logo qatar.png" width= "160px" height= "40px"> <br> <br><br>
+<img src="assets/img/logo qatar.png" width= "160px" height= "40px"> <br> <br><br>
     <form action= "./Login.php" method="POST">
         <label class = "labels" for ="nombre"> Nombre de usuario: </label>
         <input class= "controls" id = "pass2" type="text" name="nombre_de_usuario"  placeholder ="Ingrese usuario"> <br>

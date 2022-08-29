@@ -42,6 +42,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.php">Home</a></li>
+          <li><a href="minijuegos.html">Minijuegos</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="intercambio.html">Intercambio</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="album.php" class="active">Album</a></li>
         </ul>
       </nav>
