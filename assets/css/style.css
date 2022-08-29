@@ -16,22 +16,22 @@
 
   @font-face {
     font-family:Inter;
-    src: url(fuentes/Inter-ExtraBold.ttf);
+    src: url('assets/todo/fontawesome-free/webfonts//Inter-ExtraBold.ttf');
   }
 
   @font-face {
     font-family:inter;
-    src: url(fuentes/Inter-SemiBold.ttf);
+    src: url('assets/todo/fontawesome-free/webfonts//Inter-SemiBold.ttf');
   }
 
   @font-face {
     font-family:roboto;
-    src: url(fuentes/Roboto-Medium.ttf);
+    src: url('assets/todo/fontawesome-free/webfonts//Roboto-Medium.ttf');
   }
 
   @font-face {
     font-family:Roboto;
-    src: url(fuentes/Roboto-Regular.ttf);
+    src: url('assets/todo/fontawesome-free/webfonts//Roboto-Regular.ttf');
   }
   .conteiner-form {
     width: 90%;

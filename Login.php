@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href= "assets/css/style.css">
-    <title>Inicio de sesion</title>
+    <title>QATAR 2022 - Inicio de sesion</title>
+    <link href="assets/img/QATAR 2022.png" rel="icon" type = "image/png">
 </head>
 <body style="background-image: url('assets/img/estadio.jpg');">
     <div class = "container-form sing-up" > 

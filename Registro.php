@@ -4,7 +4,8 @@
 </head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href= "assets/css/registro.css">
-    <title>Registro</title>
+    <title>QATAR 2022 - Registro</title>
+<link href="assets/img/QATAR 2022.png" rel="icon" type = "image/png">
 <body style="background-image: url('assets/img/estadio.jpg');">
 <div class = "container-form sing-up">
         <div class = "welcome-back">
