@@ -199,8 +199,20 @@
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gastilab.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/gastilab.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
+
+        
 
       </div>
     </section>
@@ -587,10 +599,10 @@
             <h4>Instagram</h4>
             <ul>
               <li><a href="https://www.instagram.com/">Brandonstock_</a></li>
-              <li><a href="https://www.instagram.com/">Instagram</a></li>
-              <li><a href="https://www.instagram.com/">Instagram</a></li>
-              <li><a href="https://www.instagram.com/">Instagram</a></li>
-              <li><a href="https://www.instagram.com/">Instagram</a></li>
+              <li><a href="https://www.instagram.com/">juanicama05</a></li>
+              <li><a href="https://www.instagram.com/">sashacattaneo</a></li>
+              <li><a href="https://www.instagram.com/">gastonedel</a></li>
+              <li><a href="https://www.instagram.com/">laragenovese_</a></li>
             </ul>
           </div>
 
@@ -598,10 +610,10 @@
             <h4>Twitter</h4>
             <ul>
               <li><a href="https://www.twitter.com/">Brandonstock_</a></li>
-              <li><a href="https://www.twitter.com/">Twitter</a></li>
-              <li><a href="https://www.twitter.com/">Twitter</a></li>
-              <li><a href="https://www.twitter.com/">Twitter</a></li>
-              <li><a href="https://www.twitter.com/">Twitter</a></li>
+              <li><a href="https://www.twitter.com/">Sin Twitter</a></li>
+              <li><a href="https://www.twitter.com/">Sin Twitter</a></li>
+              <li><a href="https://www.twitter.com/">Sin Twitter</a></li>
+              <li><a href="https://www.twitter.com/">Sin Twitter</a></li>
 
             </ul>
           </div>
@@ -610,10 +622,10 @@
             <h4>Facebook</h4>
             <ul>
               <li><a href="https://www.facebook.com/">Brandon Stock</a></li>
-              <li><a href="https://www.facebook.com/">Facebook</a></li>
-              <li><a href="https://www.facebook.com/">Facebook</a></li>
-              <li><a href="https://www.facebook.com/">Facebook</a></li>
-              <li><a href="https://www.facebook.com/">Facebook</a></li>
+              <li><a href="https://www.facebook.com/">Sin facebook</a></li>
+              <li><a href="https://www.facebook.com/">Sin facebook</a></li>
+              <li><a href="https://www.facebook.com/">Sin facebook</a></li>
+              <li><a href="https://www.facebook.com/">Sin facebook</a></li>
             </ul>
           </div>
 

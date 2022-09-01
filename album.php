@@ -55,7 +55,7 @@
   <br>
 
 <body style="background-image: url('assets/img/negro.png');">
-  <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268373&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=1" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
+<div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268919&p=3&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
