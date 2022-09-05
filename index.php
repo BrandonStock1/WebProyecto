@@ -269,7 +269,7 @@
                   <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
                   <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
                   <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
-                  <li><a href="minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href= "trivia/index.html" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
