@@ -25,6 +25,9 @@
 
   <link href="assets/css/main.css" rel="stylesheet">
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -55,21 +58,59 @@
   <br>
 
 <body style="background-image: url('assets/img/negro.png');">
-<div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268919&p=3&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
+    <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268919&p=3&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<div id="preloader"></div>
+    <div id="preloader"></div>
 
-<script src="assets/todo/principal/js/bs.bundle.min.js"></script>
-<script src="assets/todo/aos/aos.js"></script>
-<script src="assets/todo/glightbox/js/glightbox.min.js"></script>
-<script src="assets/todo/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/todo/swiper/swiper-bundle.min.js"></script>
-<script src="assets/todo/purecounter/purecounter_vanilla.js"></script>
 
-<script src="assets/js/main.js"></script>
+    <div class = "figuritas">
 
-  </body>
+    </div>
+
+    <input type = "button" value = "agregar" onclick ="agregar();">
+      <div id = "mostrar_mensaje"></div>
+
+
+    <script>
+      function agregar()
+      {        
+        var parametros =
+        {
+          "nombre" : "Luis"
+          "apellido" : "Suarez"
+          "peso" : "64 kg"
+          "altura" : "172 cm"
+        };
+
+        $.ajax({
+          data: parametros,
+          url: 'figuritas.php',
+          type: "POST",
+
+          beforesend: function()
+          {
+            $('#ID_Mostrar_info').html("Mensaje Antes de Enviar")
+          }
+
+          success: function(mensaje)
+          {
+            $('#ID_Mostrar_info').html(mensaje)
+          }
+        });
+      }
+
+
+  <script src="assets/todo/principal/js/bs.bundle.min.js"></script>
+  <script src="assets/todo/aos/aos.js"></script>
+  <script src="assets/todo/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/todo/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/todo/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/todo/purecounter/purecounter_vanilla.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
