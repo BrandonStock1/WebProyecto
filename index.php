@@ -182,20 +182,20 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
               <div class="portfolio-content h-100">
                 <img src="assets/img/juaniylara.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <a href="assets/img/juaniylara.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/juaniylara.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
               <div class="portfolio-content h-100">
                 <img src="assets/img/sashalab1.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <a href="assets/img/sashalab1.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/sashalab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -205,6 +205,15 @@
                 <img src="assets/img/gastilab.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/gastilab.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/juanilab2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/juanilab2.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
