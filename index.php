@@ -49,6 +49,7 @@
           <li><a href="intercambio.html">Intercambio</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="album.php">Album</a></li>
+          <li><a href="sesion.html"><i class="bi bi-person-fill" ></i></a></li>
 
         </ul>
       </nav>
