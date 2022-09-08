@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Sesion</title>
+  <title>QATAR 2022 - Compra sobre</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,8 +41,7 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php">Volver</a></li>
-          <li><a href="sesion.html" class="active"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="tienda.html"><i class="bi bi-x flex-shrink-0" style= "font-size: 30px"></i></a></li>
         </ul>
       </nav>
 
@@ -55,9 +54,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Cerrar sesion de <span>QATAR 2022</span></h2>
-            <p data-aos="fade-up">Podra ingresar nuevamente mediante nuestro LOG IN, o por otra parte crearse otra cuenta en la pantalla de REGISTRO</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="login.php" class="btn-get-started">Cerrar sesion</a>
+            <h2 data-aos="fade-down">Compra el sobre de <br><span>10 Figuritas random</span></h2>
+            <p data-aos="fade-up">Ten en cuenta que obtendras 10 figuritas random, pero se te restara el gasto del precio del sobre (250 coins)</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="" class="btn-get-started">Confirmar compra</a>
           </div>
         </div>
       </div>

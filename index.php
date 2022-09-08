@@ -49,7 +49,7 @@
           <li><a href="intercambio.html">Intercambio</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="album.php">Album</a></li>
-          <li><a href="sesion.html"><i class="bi bi-person-fill" ></i></a></li>
+          <li><a href="sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
 
         </ul>
       </nav>
@@ -279,7 +279,7 @@
                   <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
                   <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
                   <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
-                  <li><a href= "trivia/index.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href= "minijuegos.html" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -386,7 +386,7 @@
 
               <hr>
 
-              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -418,7 +418,7 @@
 
               <hr>
 
-              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -450,7 +450,7 @@
 
               <hr>
 
-              <a href="tienda.html" class="readmore stretched-link"><span>Más</span><i class="bi bi-arrow-right"></i></a>
+              <a href="tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
