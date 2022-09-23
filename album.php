@@ -28,6 +28,28 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+  <style>
+        body {
+            overflow: hidden;
+            background-image: url("black.jpg");
+            background-size: cover;
+            background-position: center center;
+
+        }
+
+
+        #album {
+            margin: 5% auto;
+            background-position: center center;
+            width: 1000px;
+            height: 500px;
+        }
+
+        #album.turn-page {
+            background-size: 100% 100%;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -59,48 +81,35 @@
   <br>
 
 <body style="background-image: url('assets/img/negro.png');">
-    <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 600px;"><iframe src="https://www.paperturn-view.com/?pid=MjY268919&p=3&bgcolor=%23000000&embed=script&shadow=1&flipSound=1&hardCover=" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #000000"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
 
-      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      
+    <div id = "album" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-    <div id="preloader"></div>
-
-
-    <div class = "figuritas">
-
-    </div>
-
-    <input type = "button" value = "agregar" onclick ="agregar();">
-      <div id = "mostrar_mensaje"></div>
+    <div style= "background-image: url(assets/img/messi1.jpg);"></div>
+    <div style= "background-image: url(assets/img/neymar.jpg);"></div>
+    <div style= "background-image: url(assets/img/messi1.jpg);"></div>
+    <div style= "background-image: url(assets/img/neymar.jpg);"></div>
 
 
-    <script>
-      function agregar()
-      {        
-        var parametros =
-        {
-          "nombre" : "Luis"
-          "apellido" : "Suarez"
-          "peso" : "64 kg"
-          "altura" : "172 cm"
-        };
+      
+  </div>
+      <a class="carousel-control-prev" href="#album" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
 
-        $.ajax({
-          data: parametros,
-          url: 'figuritas.php',
-          type: "POST",
+      <a class="carousel-control-next" href="#album" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" ></script>
+    <script src="turn.min.js"></script>
+    <script src="turn.js"></script>
+      
+    <script> 
+    $('#album').turn({gradients: true, acceleration: true});
+    </script>
 
-          beforesend: function()
-          {
-            $('#ID_Mostrar_info').html("Mensaje Antes de Enviar")
-          }
-
-          success: function(mensaje)
-          {
-            $('#ID_Mostrar_info').html(mensaje)
-          }
-        });
-      }
+</body>
 
 
   <script src="assets/todo/principal/js/bs.bundle.min.js"></script>
