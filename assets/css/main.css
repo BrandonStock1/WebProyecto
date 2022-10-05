@@ -1519,92 +1519,6 @@ section {
   margin-bottom: 0;
 }
 
-.contact .Login.php {
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-  padding: 30px;
-}
-
-.contact .Login.php .form-group {
-  padding-bottom: 20px;
-}
-
-.contact .Login.php .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .Login.php .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .Login.php .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .Login.php .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .Login.php .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .Login.php input,
-.contact .Login.php textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .Login.php input:focus,
-.contact .Login.php textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.contact .Login.php input {
-  height: 44px;
-}
-
-.contact .Login.php textarea {
-  padding: 10px 12px;
-}
-
-.contact .Login.php button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.contact .Login.php button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -2448,4 +2362,21 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+.map-responsive {
+    overflow:hidden;
+    padding:300px 650px; 
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

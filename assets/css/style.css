@@ -27,9 +27,11 @@
     align-items: left;
     text-align: left;
   }
+
   .form-login {
+    max-height: 120vh;
     width: 600px;
-    padding: 140px 50px;
+    padding: 253px 50px;
     margin: 5rem;
     background-color: #fff;
     text-align: center;
@@ -40,21 +42,26 @@
     text-align: left;
   }
   .message{
-    padding: 5rem;
+    padding: 7rem;
   }
 
   .message h2 {
     text-align: center;
-    font-size: 3rem;
-    padding: 1rem 0;
+    font-size:56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: #FFFFFF;
     margin-left: 3.2rem;
+    position: relative;
   }
 
   .message p {
-    color: #FFFFFF;
-    font-size: 1.2rem;
-    margin-left: 5.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 3.2rem;
     }
 
   .crear-cuenta{

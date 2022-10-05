@@ -90,6 +90,9 @@
     <div style= "background-image: url(assets/img/neymar.jpg);"></div>
     <div style= "background-image: url(assets/img/messi1.jpg);"></div>
     <div style= "background-image: url(assets/img/neymar.jpg);"></div>
+    <div style= "background-image: url(assets/img/brandon.jpeg);"></div>
+    <div style= "background-image: url(assets/img/brandon.jpeg);"></div>
+
 
 
       

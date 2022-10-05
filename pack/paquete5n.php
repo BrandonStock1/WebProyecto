@@ -23,7 +23,7 @@
   <link href="assets/todo/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/todo/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 
  
 </head>
@@ -54,8 +54,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Compra el sobre de <br><span>5 Figuritas brillantes</span></h2>
-            <p data-aos="fade-up">Ten en cuenta que obtendras 5 figuritas brillantes, pero se te restara el gasto del precio del sobre (500 coins)</p>
+            <h2 data-aos="fade-down">Compra el sobre de <br><span>5 Figuritas random</span></h2>
+            <p data-aos="fade-up">Ten en cuenta que obtendras 5 figuritas random, pero se te restara el gasto del precio del sobre (150 coins)</p>
             <a data-aos="fade-up" data-aos-delay="200" href="" class="btn-get-started">Confirmar compra</a>
           </div>
         </div>
