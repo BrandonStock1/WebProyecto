@@ -1,134 +1,138 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;  
-  }
-
-  body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:url('estadio.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  @font-face {
-    font-family:Inter;
-    src: url('assets/todo/fontawesome-free/webfonts/Inter-ExtraBold.ttf');
-  }
-
-  @font-face {
-    font-family:inter;
-    src: url('assets/todo/fontawesome-free/webfonts//Inter-SemiBold.ttf');
-  }
-
-  @font-face {
-    font-family:roboto;
-    src: url('assets/todo/fontawesome-free/webfonts//Roboto-Medium.ttf');
-  }
-
-  @font-face {
-    font-family:Roboto;
-    src: url('assets/todo/fontawesome-free/webfonts//Roboto-Regular.ttf');
-  }
-  .conteiner-form {
-    width: 90%;
-    height: 90vh;
-    display:flex;
-    justify-content: space-around;
-  }
-
-  .welcome-back{
-    display: flex;
-    align-items: left;
-    text-align: left;
-  }
-  .form-registro {
-    width: 550px;
-    padding: 13rem 100px;
-    margin: 5rem;
-    background-color: #fff;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 15px;
-  }
-
-  .form-registro form {
-    text-align: left;
-  }
-  
-  .message{
-    padding: 4rem;
-  }
-
-  .message h2 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    font-family: Inter;
-    padding: 1rem 0;
-    color: #FFFFFF;;
-  }
-
-  .message p {
-    color: #FFFFFF;;
-    font-family: inter;
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
-
-  .crear-cuenta{
-    padding: 2.7 rem 0;
-    font-size: 1.7 rem;
-  }
-
-  .form-registro .controls {
-    width: 100%;
-    display: block;
-    margin-bottom: 1rem;
-    margin-top: .5rem;
-    background: #ECECEC;
-    border: 2px solid #888888;
-    border-radius: 6px;
-    text-align: left;
-    outline: none;
-    padding: .6rem 0;
-    padding-left: 10px;
-    font-size: .9rem;
-    color: black;
-  }
-
-  .form-registro .controls.error { 
-    border: 2px solid rgb(212, 23, 23);
-  }
-
-  .buttons {
-    width: 100%;
-    margin: auto;
-    border:  #8B1538;
-    padding: .7rem;
-    background: #8B1538;
-    border-radius: 8px;
-    font-weight: 600;
-    margin-top: 1rem;
-    font-family: roboto;
-    font-size: 16px;
-    cursor: pointer;
-    color: white;
-  }
-  .usuario {
-    font-size: 14px;
-      font-weight:500;
-      color: #fff;
-      background-color: rgb(212, 23, 23);
-      border-radius: 4px;
-      padding: 14px;
-      margin-bottom: 14px;
-      text-align: center;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;  
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.conteiner-form {
+  width: 90%;
+  height: 90vh;
+  display:flex;
+  justify-content: space-around;
+}
+
+.welcome-back{
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+.form-login {
+  max-height: 120vh;
+  width: 600px;
+  padding: 253px 50px;
+  margin: 5rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.form-login form {
+  text-align: left;
+}
+.message{
+  padding: 7rem;
+}
+
+.message h2 {
+  text-align: center;
+  font-size:56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  margin-left: 3.2rem;
+  position: relative;
+}
+
+.message p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 3.2rem;
+  }
+
+.crear-cuenta{
+  padding: 2.7 rem 0;
+  font-size: 1.7 rem;
+}
+
+.form-login .controls {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: .65rem;
+  background: #ECECEC;
+  border: 2px solid #888888;
+  border-radius: 6px;
+  text-align: left;
+  padding-left: 10px;
+  outline: none;
+  padding: .6rem 0;
+  padding-left: 10px;
+  font-size: .9rem;
+  color: black;
+}
+
+.form-login .controls.error { 
+  border: 2px solid rgb(212, 23, 23);
+}
+
+.buttons {
+  width: 100%;
+  margin: auto;
+  border:  #8B1538;
+  padding: .7rem;
+  background: #8B1538;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.buttons2 {
+  width: 100%;
+  margin: auto;
+  padding: .6rem;
+  background: #FFFFFF;
+  border: 3px solid #8B1538;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  color: #800040;
+  pointer-events: none;
+}
+
+a {
+  text-align: center;
+}
+
+.usuario_1 {
+  font-size: 14px;
+    font-weight:500;
+    color: #fff;
+    background-color: rgb(212, 23, 23);
+    border-radius: 4px;
+    padding: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+}
 #pass {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }

@@ -9,21 +9,21 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <link href="assets/img/QATAR 2022.png" rel="icon" type = "image/png">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/QATAR 2022.png" rel="icon" type = "image/png">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-  <link href="assets/todo/principal/css/bs.min.css" rel="stylesheet">
-  <link href="assets/todo/icons/icons.css" rel="stylesheet">
-  <link href="assets/todo/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/todo/aos/aos.css" rel="stylesheet">
-  <link href="assets/todo/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/todo/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/todo/principal/css/bs.min.css" rel="stylesheet">
+  <link href="../assets/todo/icons/icons.css" rel="stylesheet">
+  <link href="../assets/todo/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../assets/todo/aos/aos.css" rel="stylesheet">
+  <link href="../assets/todo/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/todo/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 
  
 </head>
@@ -41,7 +41,7 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="tienda.html"><i class="bi bi-x flex-shrink-0" style= "font-size: 30px"></i></a></li>
+          <li><a href="../paginas/tienda.html"><i class="bi bi-x flex-shrink-0" style= "font-size: 30px"></i></a></li>
         </ul>
       </nav>
 
@@ -64,14 +64,14 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url(assets/img/AlBayt.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/AlThumama.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/RasAbu.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/Education.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/Lusail.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/AlJanub.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/AhmadBin.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/Khalifa.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(../assets/img/AlBayt.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/AlThumama.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/RasAbu.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/Education.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/Lusail.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/AlJanub.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/AhmadBin.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(../assets/img/Khalifa.jpg)"></div>
 
 
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -90,14 +90,14 @@
 
   <div id="preloader"></div>
 
-  <script src="assets/todo/principal/js/bs.bundle.min.js"></script>
-  <script src="assets/todo/aos/aos.js"></script>
-  <script src="assets/todo/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/todo/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/todo/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/todo/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/todo/principal/js/bs.bundle.min.js"></script>
+  <script src="../assets/todo/aos/aos.js"></script>
+  <script src="../assets/todo/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/todo/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/todo/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/todo/purecounter/purecounter_vanilla.js"></script>
 
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
