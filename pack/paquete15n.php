@@ -64,7 +64,7 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url(../assets/img/AlBayt.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(../assets/img/AlBayt.jpg-n)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/AlThumama.jpg)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/RasAbu.jpg)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/Education.jpg)"></div>

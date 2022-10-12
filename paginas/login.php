@@ -29,9 +29,9 @@
   <link href="../assets/css/style.css" rel="stylesheet">
 </head>
     
-<body style="background-image: url('../assets/img/AlBayt.jpg');">
+<body style="background-image: url(../assets/img/AlBayt.jpg)">
 
-    <div class = "container-form sing-up" > 
+    <div class = "container-form sing-up"> 
         <div class = "welcome-back">
             <div class = "message"> <br>
             <h2>Albúm de figuritas digital <br>QATAR 2022</h2>
