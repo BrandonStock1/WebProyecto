@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 :root{
-    background-color: rgb(29,26, 26) ;
+    background-color: #8b1538;
 }
 
 *{
@@ -12,7 +12,7 @@
 }
 h1{
     font-size: 5.4rem;
-    color:blueviolet;
+    color:#fff;
     margin: bottom 5rem; 
 }
 
@@ -58,14 +58,14 @@ h2{
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: rgb(29,26, 26);
-    background: linear-gradient(90deg,rgb(18,92,255)0%,rgb(0,102,255)100%);
+    color: #fff;
+    background: #000;
     border-radius: 4px;
 }
 
 .btn:hover{
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(8,114,244, 0.6);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 254, 254, 0.925);
     transition: transform 150ms;
     transform: scale(1.03);
     
@@ -75,21 +75,37 @@ h2{
     box-shadow:none;
     transform: none;
 }
-#highscore-btn
+#Salir-btn
 {
- background: linear-gradient(90deg,rgb(255,0, 255)0%,rgb(240,0,240)100%);
+ background:#000;
 }
 
-#highscore-btn:hover{
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(169, 6, 123, 0.5);
-}
-.fa-crown{
-    font-size: 2.5rem;
-    margin-left: 1rem;
-    color: rgb(219, 223, 15);
-     
+#Salir-btn:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 254, 254, 0.925);
 }
 
-.fa-crown:hover{
-   
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+
+}
+
+#end-text{
+    align-items: center;
+    color: #fff;
+
+}
+ 
+#btn-jugarDeNuevo
+{
+ background-color: #ebc041;
+}
+
+#btn-Salir{
+
+    background-color: #ebc041;
 }

@@ -1,5 +1,5 @@
 <?php 
-    include_once("./mysql_functions.php");
+    include_once("../mysql_functions.php");
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +42,7 @@
 
     <section class ="form-login">
         
-        <img src="../assets/img/logo qatar.png" width= "200px" height= "50px"> <br> <br><br>
+        <img src="../assets/img/logo qatar.png" width= "200px" height= "50px"> <br> <br><br> <br>
         <br><br>
         <form action= "./Registro.php" method="POST">
 
