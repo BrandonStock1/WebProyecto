@@ -32,7 +32,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="../paginas/index.html" class="logo d-flex align-items-center">
+      <a href="../paginas/index.php" class="logo d-flex align-items-center">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -40,8 +40,8 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html">Volver</a></li>
-          <li><a href="../paginas/sesion.html" class="active"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/index.php">Volver</a></li>
+          <li><a href="../paginas/sesion.php" class="active"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
         </ul>
       </nav>
 

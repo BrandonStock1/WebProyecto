@@ -64,7 +64,7 @@
                                 echo "<script>document.getElementById('pass').classList.add('error')</script>";
                             }
                             else{
-                                echo "<script>window.location.replace('../paginas/index.html')</script>";
+                                echo "<script>window.location.replace('../paginas/index.php')</script>";
                             }
                         }
                     } else {

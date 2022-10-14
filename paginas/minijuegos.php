@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Contact</title>
+  <title>QATAR 2022 - Minijuegos</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,6 +25,7 @@
 
   <link href="../assets/css/main.css" rel="stylesheet">
 
+ 
 </head>
 
 <body>
@@ -32,7 +33,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="../paginas/index.html" class="logo d-flex align-items-center">
+      <a href="../paginas/index.php" class="logo d-flex align-items-center">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -40,13 +41,13 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html">Home</a></li>
-          <li><a href="../paginas/minijuegos.html">Minijuegos</a></li>
-          <li><a href="../paginas/tienda.html">Tienda</a></li>
-          <li><a href="../paginas/intercambio.html">Intercambio</a></li>
-          <li><a href="../paginas/contact.html" class="active" >Contact</a></li>
+          <li><a href="../paginas/index.php">Home</a></li>
+          <li><a href="../paginas/minijuegos.php" class="active">Minijuegos</a></li>
+          <li><a href="../paginas/tienda.php">Tienda</a></li>
+          <li><a href="../paginas/intercambio.php">Intercambio</a></li>
+          <li><a href="../paginas/contact.php">Contact</a></li>
           <li><a href="../pack/album.php">Album</a></li>
-          <li><a href="../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
         </ul>
       </nav>
 
@@ -58,55 +59,129 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('../assets/img/copa-base.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Contact</h2>
+        <h2>Minijuegos</h2>
         <ol>
           <li><a href="../paginas/index.php">Home</a></li>
-          <li>Contact</li>
+          <li>Minijuegos</li>
         </ol>
 
       </div>
     </div>
 
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Dirección</h3>
-              <p>Av. del Libertador 6796, C1429 CABA</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p>qatar2022team@est.ort.edu.ar</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+54 911 0000 0000</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="row gy-4 mt-1">
-          <div class="col-lg-6 ">
-            <div class="map-responsive">
-              <iframe style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.1493463651827!2d-58.45634658519721!3d-34.549773862152044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42f9ed308c9%3A0xcd4d8e2268209306!2sEscuela%20ORT%20sede%20Belgrano!5e0!3m2!1ses!2sar!4v1659998736657!5m2!1ses!2sar" width="1300" height="600" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
-            </div>
-          </div>
-        </div>
-
-    </section>
-
   </main>
+
+
+  <section id="recent-blog-posts" class="recent-blog-posts">
+    <div class="container" data-aos="fade-up">
+  
+<div class=" section-header">
+      <h2>Minijuegos</h2>
+      <p>La forma de ganar TicCoins divirtiendose!!</p>
+    </div>
+
+    <div class="row gy-5">
+
+      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="post-item position-relative h-100">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="../assets/img/trivia.jpg" height="540" width="960" class="img-fluid" alt="">
+          </div>
+
+          <div class="post-content d-flex flex-column">
+
+            <br>
+
+            <h3 class="post-title">Trivia</h3>
+
+            <div class="meta d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-person"></i> <span class="ps-2">1</span>
+              </div>
+              <span class="px-3 text-black-50">/</span>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-folder2"></i> <span class="ps-2">10 preguntas</span>
+              </div>
+            </div>
+
+            <hr>
+
+            <a href="../trivia/index.php" class="readmore stretched-link"><span>Puedes ganar hasta 10 TicCoins </span><i class="bi bi-coin"></i></a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="post-item position-relative h-100">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="../assets/img/head.jpg" height="540" width="960" class="img-fluid" alt="">
+          </div>
+
+          <div class="post-content d-flex flex-column">
+
+          <br>
+
+            <h3 class="post-title">...</h3>
+
+            <div class="meta d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-person"></i> <span class="ps-2">1</span>
+              </div>
+              <span class="px-3 text-black-50">/</span>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-folder2"></i> <span class="ps-2">...</span>
+              </div>
+            </div>
+
+            <hr>
+
+            <a href="../paginas/minijuegos.php" class="readmore stretched-link"><span>... </span><i class="bi bi-coin"></i></a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-md-6">
+        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="../assets/img/dino.jpg" height="540" width="960" class="img-fluid" alt="">
+          </div>
+
+          <div class="post-content d-flex flex-column">
+
+          <br>
+
+            <h3 class="post-title">....</h3>
+
+            <div class="meta d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-person"></i> <span class="ps-2">1</span>
+              </div>
+              <span class="px-3 text-black-50">/</span>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-folder2"></i> <span class="ps-2">...</span>
+              </div>
+            </div>
+
+            <hr>
+
+            <a href="../paginas/minijuegos.php" class="readmore stretched-link"><span>... </span><i class="bi bi-coin"></i></a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
 
   <footer id="footer" class="footer">
 

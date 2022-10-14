@@ -32,7 +32,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="../paginas/index.html" class="logo d-flex align-items-center">
+      <a href="../paginas/index.php" class="logo d-flex align-items-center">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -40,13 +40,13 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html" class="active" >Home</a></li>
-          <li><a href="../paginas/minijuegos.html">Minijuegos</a></li>
-          <li><a href="../paginas/tienda.html">Tienda</a></li>
-          <li><a href="../paginas/intercambio.html">Intercambio</a></li>
-          <li><a href="../paginas/contact.html">Contact</a></li>
+          <li><a href="../paginas/index.php" class="active" >Home</a></li>
+          <li><a href="../paginas/minijuegos.php">Minijuegos</a></li>
+          <li><a href="../paginas/tienda.php">Tienda</a></li>
+          <li><a href="../paginas/intercambio.php">Intercambio</a></li>
+          <li><a href="../paginas/contact.php">Contact</a></li>
           <li><a href="../pack/album.php">Album</a></li>
-          <li><a href="../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
 
         </ul>
       </nav>
@@ -276,7 +276,7 @@
                   <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
                   <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
                   <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
-                  <li><a href= "../paginas/minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href= "../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -296,7 +296,7 @@
                   <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
                   <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
                   <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
-                  <li><a href="../paginas/minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -316,7 +316,7 @@
                   <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
                   <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
                   <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
-                  <li><a href="../paginas/minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -336,7 +336,7 @@
                   <li><i class="bi bi-check2-all"></i>...</li>
                   <li><i class="bi bi-check2-all"></i>...</li>
                   <li><i class="bi bi-check2-all"></i>...</li>
-                  <li><a href="../paginas/minijuegos.html" class="bi bi-play"> Jugar</a></li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -383,7 +383,7 @@
 
               <hr>
 
-              <a href="../paginas/tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -415,7 +415,7 @@
 
               <hr>
 
-              <a href="../paginas/tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -447,7 +447,7 @@
 
               <hr>
 
-              <a href="../paginas/tienda.html" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
