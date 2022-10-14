@@ -1,3 +1,10 @@
+<?php 
+    include_once("../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +54,7 @@
           <li><a href="../paginas/intercambio.php">Intercambio</a></li>
           <li><a href="../paginas/contact.php">Contact</a></li>
           <li><a href="../pack/album.php">Album</a></li>
-          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> -  <?php echo $_SESSION["username"];?> </a></li>
         </ul>
       </nav>
 
@@ -106,7 +113,7 @@
 
             <hr>
 
-            <a href="../trivia/index.php" class="readmore stretched-link"><span>Puedes ganar hasta 10 TicCoins </span><i class="bi bi-coin"></i></a>
+            <a href="../trivia/index.html" class="readmore stretched-link"><span>Puedes ganar hasta 10 TicCoins </span><i class="bi bi-coin"></i></a>
 
           </div>
 

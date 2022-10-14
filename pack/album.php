@@ -1,3 +1,10 @@
+<?php 
+    include_once("../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,13 +72,13 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html">Home</a></li>
-          <li><a href="../paginas/minijuegos.html">Minijuegos</a></li>
-          <li><a href="../paginas/tienda.html">Tienda</a></li>
-          <li><a href="../paginas/intercambio.html">Intercambio</a></li>
-          <li><a href="../paginas/contact.html">Contact</a></li>
+          <li><a href="../paginas/index.php">Home</a></li>
+          <li><a href="../paginas/minijuegos.php">Minijuegos</a></li>
+          <li><a href="../paginas/tienda.php">Tienda</a></li>
+          <li><a href="../paginas/intercambio.php">Intercambio</a></li>
+          <li><a href="../paginas/contact.php">Contact</a></li>
           <li><a href="../pack/album.php" class="active">Album</a></li>
-          <li><a href="../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
         </ul>
       </nav>
     </div>

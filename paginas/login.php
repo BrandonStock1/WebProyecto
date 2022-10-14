@@ -1,5 +1,9 @@
 <?php 
     include_once("../mysql_functions.php");
+    session_start();
+    if (isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./')</script>";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -64,6 +68,7 @@
                                 echo "<script>document.getElementById('pass').classList.add('error')</script>";
                             }
                             else{
+                                $_SESSION["username"] = $fila->nombre_de_usuario;
                                 echo "<script>window.location.replace('../paginas/index.php')</script>";
                             }
                         }
