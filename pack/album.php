@@ -28,28 +28,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <style>
-        body {
-            overflow: hidden;
-            background-image: url("black.jpg");
-            background-size: cover;
-            background-position: center center;
-
-        }
-
-
-        #album {
-            margin: 5% auto;
-            background-position: center center;
-            width: 1000px;
-            height: 500px;
-        }
-
-        #album.turn-page {
-            background-size: 100% 100%;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -86,6 +64,90 @@
       <a class="carousel-control-prev" href="#album" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
+
+      <section id="intercambio" class="intercambio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-isotope" data-portfolio-sort="original-order">
+
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li><a href="../pack/album.php" class="active">Principal</a></li>
+            <li><a href="../pack/album0.php">Principal2</a></li>
+            <li><a href="../pack/A/grupo-A.html">Grupo A</a></li>
+            <li><a href="../pack/B/grupo-B.html">Grupo B</a></li>
+            <li><a href="../pack/C/grupo-C.html">Grupo C</a></li>
+            <li><a href="../pack/D/grupo-D.html">Grupo D</a></li>
+            <li><a href="../pack/E/grupo-E.html">Grupo E</a></li>
+            <li><a href="../pack/F/grupo-F.html">Grupo F</a></li>
+            <li><a href="../pack/G/grupo-G.html">Grupo G</a></li>
+            <li><a href="../pack/H/grupo-H.html">Grupo H</a></li>
+          </ul>
+
+          <br><br><br>
+
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Septiembre"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Septiembre"></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
 
       <a class="carousel-control-next" href="../pack/album0.php" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
