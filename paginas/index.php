@@ -1,3 +1,10 @@
+<?php 
+    include_once("../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +12,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>QATAR 2022 - Pagina principal</title>
+  <title>QATAR 2022 - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -32,7 +39,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="#" class="logo d-flex align-items-center">
+      <a href="../paginas/index.php" class="logo d-flex align-items-center">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -40,7 +47,13 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/login.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/index.php" class="active" >Home</a></li>
+          <li><a href="../paginas/minijuegos.php">Minijuegos</a></li>
+          <li><a href="../paginas/tienda.php">Tienda</a></li>
+          <li><a href="../paginas/intercambio.php">Intercambio</a></li>
+          <li><a href="../paginas/contact.php">Contact</a></li>
+          <li><a href="../pack/album.php">Album</a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
 
         </ul>
       </nav>
@@ -55,8 +68,8 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Bienvenido al album de <span>QATAR 2022</span></h2>
-            <p data-aos="fade-up">En esta página web vas a poder coleccionar las figuritas del mundial QATAR 2022 de forma digital, pero para poder conseguir figuritas vas a necesitar jugar una serie de minijuegos con los que podras conseguir moneditas que servirán para comprar los paquetes de figuritas</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="../paginas/login.php" class="btn-get-started">Comenzar</a>
+            <p data-aos="fade-up">Divertite coleccionando las figuritas del mundial de QATAR 2022 de forma digital, pero para poder conseguir figuritas vas a necesitar jugar una serie de minijuegos con los que podras conseguir monedas que servirán para comprar los paquetes</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="../pack/album.php" class="btn-get-started">Comenzar</a>
           </div>
         </div>
       </div>
@@ -64,7 +77,7 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url(../assets/img/AlBayt.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(../assets/img/AlBayt-n.jpg)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/AlThumama.jpg)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/RasAbu.jpg)"></div>
       <div class="carousel-item" style="background-image: url(../assets/img/Education.jpg)"></div>
@@ -135,13 +148,96 @@
       </div>
     </section>
 
+    
+    <section id="intercambio" class="intercambio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>El proceso</h2>
+          <p>Dejaremos unas imagenes para describir nuestro trabajo a traves del tiempo...</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todas</li>
+            <li data-filter=".filter-Agosto">Agosto</li>
+            <li data-filter=".filter-Septiembre">Septiembre</li>
+            <li data-filter=".filter-Octubre">Octubre</li>
+            <li data-filter=".filter-Noviembre">Noviembre</li>
+          </ul>
+
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/brandonlab1.jpeg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/brandonlab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/laralab1.jpeg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/laralab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/juaniylara.jpeg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/juaniylara.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/sashalab1.jpeg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/sashalab1.jpeg" data-gallery="portfolio-gallery-Agosto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/gastilab.jpeg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/gastilab.jpeg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
+              <div class="portfolio-content h-100">
+                <img src="../assets/img/juanilab2.jpg" width= "500" height= "500px" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="../assets/img/juanilab2.jpg" data-gallery="portfolio-gallery-Septiembre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
 
     <section id="constructions" class="constructions">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Diviertete</h2>
-          <p>Utilizando las secciones que esta web tiene!</p>
+          <h2>Minijuegos</h2>
+          <p>Podremos ganar TicCoins, que usaremos para comprar sobres en la tienda!!</p>
         </div>
 
     <section id="features" class="features section-bg">
@@ -150,24 +246,24 @@
 
           <li class="nav-item col-3">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-              <h4>Minijuegos</h4>
+              <h4>Juego 1 (Trivia)</h4>
             </a>
           </li>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-              <h4>Tienda</h4>
+              <h4>Juego 2</h4>
             </a>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-              <h4>Intercambio</h4>
+              <h4>Juego 3</h4>
             </a>
           </li>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-              <h4>Album</h4>
+              <h4>Informacion</h4>
             </a>
           </li>
 
@@ -179,19 +275,19 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <h3>Minijuegos</h3> 
+                <h3>Trivia</h3> 
                 <p class="fst-italic">
-                  Juegos con los que podras ganas monedas!
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i>Trivia - Responder preguntas del mundial</li>
-                  <li><i class="bi bi-check2-all"></i>...</li>
-                  <li><i class="bi bi-check2-all"></i>...</li>
-                  <li><a href= "../paginas/login.php" class="bi bi-play"> Llevame</a></li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href= "../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="../assets/img/bgfooter.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/trivia.jpg" height="540" width="960" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -199,19 +295,19 @@
           <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <h3>Tienda</h3> 
+                <h3>Trivia</h3> 
                 <p class="fst-italic">
-                  Donde se compran los sobres para completar el album.
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i>Paquetes de 5, 10, 15, 30 jugadores randoms</li>
-                  <li><i class="bi bi-check2-all"></i>Paquetes de 5 brillantes</li>
-                  <li><i class="bi bi-check2-all"></i>Paquetes de 5 objetos</li>
-                  <li><a href="../paginas/login.php" class="bi bi-play"> Llevame</a></li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="../assets/img/bgfooter.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/head.jpg" height="540" width="960" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -219,19 +315,19 @@
           <div class="tab-pane" id="tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <h3>Intercambio</h3> 
+                <h3>Trivia</h3> 
                 <p class="fst-italic">
-                  Donde podras intercambiar con otros usuarios.
+                  Un juego basado en responder preguntas sobre el mundial.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i>Jugadores</li>
-                  <li><i class="bi bi-check2-all"></i>Brillantes</li>
-                  <li><i class="bi bi-check2-all"></i>Objetos</li>
-                  <li><a href="../paginas/login.php" class="bi bi-play"> Llevame</a></li>
+                  <li><i class="bi bi-check2-all"></i>Obten TicCoins al responder las preguntas correctamente</li>
+                  <li><i class="bi bi-check2-all"></i>Aprender más de la cultura tanto de Qatar, como Arabe</li>
+                  <li><i class="bi bi-check2-all"></i>Adquirir conocimientos de la historia del mejor deporte</li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="../assets/img/bgfooter.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/dino.jpg" height="540" width="960" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -239,15 +335,15 @@
           <div class="tab-pane" id="tab-4">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <h3>Album</h3>
+                <h3>Informacion</h3>
                 <p class="fst-italic">
-                  Donde pegaras las figuritas para poder completarlo.
+                  Informacion del uso de TicCoins.
                 </p>
                 <ul>
                   <li><i class="bi bi-check2-all"></i>...</li>
                   <li><i class="bi bi-check2-all"></i>...</li>
                   <li><i class="bi bi-check2-all"></i>...</li>
-                  <li><a href="../paginas/login.php" class="bi bi-play"> Llevame</a></li>
+                  <li><a href="../paginas/minijuegos.php" class="bi bi-play"> Jugar</a></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -259,17 +355,125 @@
       </div>
     </section>
 
+    <section id="recent-blog-posts" class="recent-blog-posts">
+      <div class="container" data-aos="fade-up">
+    
+  <div class=" section-header">
+        <h2>Tienda</h2>
+        <p>Tienda donde se compran los sobres para poder lograr nuestro objetivo.</p>
+      </div>
 
-    <section id="constructions" class="constructions">
+      <div class="row gy-5">
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <br>
+
+              <h3 class="post-title">Sobre (15 figuritas)</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">15</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Brillante asegurada</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+            <br>
+
+              <h3 class="post-title">Sobre (10 figuritas)</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">10</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Random</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+            <br>
+
+              <h3 class="post-title">Sobre (5 figuritas)</h3>
+
+              <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">5</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Random</span>
+                </div>
+              </div>
+
+              <hr>
+
+              <a href="../paginas/tienda.php" class="readmore stretched-link"><span>Más </span><i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+
+
+    <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Equipo</h2>
           <p>Los participantes de este proyecto de ORT 2022</p>
         </div>
-
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
 
         <div class="slides-2 swiper">
           <div class="swiper-wrapper">

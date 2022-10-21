@@ -13,7 +13,7 @@ let availableQuestions = {}
 
 let questions = [ 
 {
-    question: '¿Quien es el maximo goleador en la historia de lo penales?',
+    question: '¿Quien es el maximo goleador en la historia de lo mundiales?',
     choice1: 'Kempes',
     choice2: 'Klose',
     choice3: 'Pelé',
@@ -42,7 +42,7 @@ let questions = [
     choice2: 'Alemania',
     choice3: 'Inglaterra',
     choice4: 'Holanda',
-    answer: '1'
+    answer: '2'
 },
 {
     question: '¿Como se llamó la pelota del mundial de Sudáfrica 2010?',
@@ -75,10 +75,68 @@ let questions = [
     choice3: 'Italia',
     choice4: 'Alemania',
     answer: '2'
+},
+{
+    question: '¿Como salio Brasil y alemania en el mundial 2014?',
+    choice1: 'Alemania: 4 - Brasil: 2',
+    choice2: 'Alemania: 1 - Brasil: 1',
+    choice3: 'Alemania: 7 - Brasil: 1',
+    choice4: 'Alemania: 0- Brasil: 2',
+    answer: '3'
+},
+{
+    question: '¿En que año fue el maracanzo?',
+    choice1: '1970',
+    choice2: '2014',
+    choice3: '1938',
+    choice4: '1950',
+    answer: '4'
+}, 
+{
+    question: '¿Cuantas copas del mundo hubo?',
+    choice1: '21',
+    choice2: '20',
+    choice3: '23',
+    choice4: '17',
+    answer: '1'
+},
+{
+    question: '¿Quien gano el mundial del 34?',
+    choice1: 'Uruguay',
+    choice2: 'Hungria',
+    choice3: 'Italia',
+    choice4: 'Francia',
+    answer: '3'
+}, 
+{
+    question: '¿Cual fue la maxima goleada en un mundial?',
+    choice1: 'Hungria: 10 - El Salvador: 1',
+    choice2: 'Yugoslavia: 9 - Congo: 0 ',
+    choice3: 'Uruguay 8 - Bolivia: 0',
+    choice4: 'Brasil 9 - Suecia: 1',
+    answer: '1'
+}, 
+{
+    question: '¿Cuál es la final del Mundo que más veces se repitio?',
+    choice1: 'Brasil - Italia',
+    choice2: 'Argentina - Alemania  ',
+    choice3: 'Brasil - Uruguay',
+    choice4: 'Alemania - Holanda',
+    answer: '2'
+}, 
+{
+    question: '¿El jugador mas joven en jugar un mundial?',
+    choice1: 'Pele',
+    choice2: 'Salomon OLEMBE ',
+    choice3: 'Femi OPABUNMI',
+    choice4: 'Norman Whiteside ',
+    answer: '4'
 }] 
 
+ 
+
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 9
+const MAX_QUESTIONS = 15
 
 startGame = () => {
 questionCounter= 0 
@@ -92,7 +150,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign("end.html")
     }
 
 
@@ -102,6 +160,7 @@ getNewQuestion = () => {
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions [ questionsIndex]
+   
 
     question.innerText = currentQuestion.question;
 
@@ -111,7 +170,7 @@ getNewQuestion = () => {
     })
 
 
-    availableQuestions.splice(questionsIndex, 1);
+    availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswer = true
 
@@ -128,20 +187,22 @@ choices.forEach(choice=> {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
     
         if(classToApply == 'correct'){
-            incrementScore(SCORE_POINTS);
+            incrementScore(SCORE_POINTS)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
         
         setTimeout (() => {
             selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion();
+            getNewQuestion()
         }, 1000)
     })
 
 })
 
 incrementScore = num => {
-    score += num 
+    score +=num 
     scoreText.innerText = score
 }
+
+startGame()

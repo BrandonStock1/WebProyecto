@@ -1,5 +1,9 @@
 <?php 
-    include_once("./mysql_functions.php");
+    include_once("../mysql_functions.php");
+    session_start();
+    if (isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./')</script>";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -42,8 +46,7 @@
 
     <section class ="form-login">
         
-        <img src="../assets/img/logo qatar.png" width= "200px" height= "50px"> <br> <br><br><br><br><br><br>
-        <br><br>
+        <img src="../assets/img/logo qatar.png" class="img" width= "200px" height= "50px"> <br> <br><br> <br>
         <form action= "./Login.php" method="POST">
 
         <label class = "labels" for ="nombre"> Nombre de usuario: </label>
@@ -65,7 +68,8 @@
                                 echo "<script>document.getElementById('pass').classList.add('error')</script>";
                             }
                             else{
-                                echo "<script>window.location.replace('../paginas/index.html')</script>";
+                                $_SESSION["username"] = $fila->nombre_de_usuario;
+                                echo "<script>window.location.replace('../paginas/index.php')</script>";
                             }
                         }
                     } else {

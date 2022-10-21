@@ -1,3 +1,10 @@
+<?php 
+    include_once("../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +39,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="../paginas/index.html" class="logo d-flex align-items-center">
+      <a href="../paginas/index.php" class="logo d-flex align-items-center">
         <h1>QATAR 2022<span>.</span></h1>
       </a>
 
@@ -40,8 +47,8 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html">Volver</a></li>
-          <li><a href="../paginas/sesion.html" class="active"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/index.php">Volver</a></li>
+          <li><a href="../paginas/sesion.php" class="active"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?> </a></li>
         </ul>
       </nav>
 
@@ -56,7 +63,7 @@
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Cerrar sesion de <span>QATAR 2022</span></h2>
             <p data-aos="fade-up">Podra ingresar nuevamente mediante nuestro LOG IN, o por otra parte crearse otra cuenta en la pantalla de REGISTRO</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="../paginas/login.php" class="btn-get-started">Cerrar sesion</a>
+            <a data-aos="fade-up" data-aos-delay="200" href="../paginas/login.php" class="btn-get-started">Cerrar sesion <?php unset($_SESSION["username"]); ?></a>
           </div>
         </div>
       </div>
