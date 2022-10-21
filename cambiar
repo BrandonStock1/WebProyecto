@@ -111,34 +111,42 @@
   }
 
 
-/*----------------------------------------------------------------------------------------
-# TERMINAR DE CONECTAR TODOS LOS JUEGOS Y FOTOS DE LOS MINIJUEGOS (PRIORIDAD ALTA - SASHA)
------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------
+# TERMINAR DE CONECTAR TODOS LOS JUEGOS Y FOTOS DE LOS MINIJUEGOS 
+(PRIORIDAD ALTA - SASHA)
+------------------------------------------------------------------*/
 
-/*---------------------------------------------------------------------------------
-# CAMBIAR Y MODIFICAR EL FOOTER PARA QUE QUEDE MAS LINDO (PRIORIDAD BAJA - BRANDON)
------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------
+# CAMBIAR Y MODIFICAR EL FOOTER PARA QUE QUEDE MAS LINDO 
+(PRIORIDAD BAJA - BRANDON)
+---------------------------------------------------------*/
 
-/*------------------------------------------------------------------------------------------------------------------------------------
-# HACER QUE LOS SOBRES SE PUEDAN COMPRAR Y SE RANDOMICEN LOS JUGADORES Y SE GUARDEN EN LA BD (PRIORIDAD ALTA - JUANI, GASTI Y BRANDON)
---------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------
+# HACER QUE LOS SOBRES SE PUEDAN COMPRAR Y SE RANDOMICEN LOS JUGADORES Y SE GUARDEN EN LA BD 
+(PRIORIDAD ALTA - JUANI, GASTI Y BRANDON)
+---------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------
+# HACER QUE CON LOS MINIJUEGOS Y TIENDA SE PUEDAN USAR LAS MONEDAS 
+(PRIORIDAD ALTA - JUANI Y GASTI)
+------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+# HACER QUE EL INTERCAMBIO FUNCIONE Y SE PUEDAN CREAR Y BORRAR COMPRAS 
+(PRIORIDAD MEDIA - GASTI Y BRANDON)
+----------------------------------------------------------------------*/
+
+/*--------------------------------------------
+# HACER EL ALBUM Y QUE FUNCIONE PERFECTAMENTE 
+(PRIORIDAD MUY ALTA !! - JUANI Y BRANDON)
+---------------------------------------------*/
+
+/*---------------------------------------------------
+# HACER EL REGISTRO MEJOR Y TAL VEZ CAMBIAR EL INICIO 
+(PRIORIDAD MEDIA/BAJA - BRANDON)
+-----------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------------
-# HACER QUE CON LOS MINIJUEGOS Y TIENDA SE PUEDAN USAR LAS MONEDAS (PRIORIDAD ALTA - JUANI Y GASTI)
----------------------------------------------------------------------------------------------------*/
-
-/*--------------------------------------------------------------------------------------------------------
-# HACER QUE EL INTERCAMBIO FUNCIONE Y SE PUEDAN CREAR Y BORRAR COMPRAS (PRIORIDAD MEDIA - GASTI Y BRANDON)
-----------------------------------------------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------------------------
-# HACER EL ALBUM Y QUE FUNCIONE PERFECTAMENTE (PRIORIDAD MUY ALTA !! - JUANI Y BRANDON)
----------------------------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------------------------
-# HACER EL REGISTRO MEJOR Y TAL VEZ CAMBIAR EL INICIO (PRIORIDAD MEDIA/BAJA - BRANDON)
----------------------------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------------------------------------------------------------
-# HACER TODAS LAS FIGURITAS DEL ALBUM Y DISEÑOS QUE SEAN PEDIDOS TANTO PARA EL ALBUM COMO PARA TODO (PRIODIDAD ALTA - LARA)
----------------------------------------------------------------------------------------------------------------------------*/
+# HACER TODAS LAS FIGURITAS DEL ALBUM Y DISEÑOS QUE SEAN PEDIDOS TANTO PARA EL ALBUM COMO PARA TODO 
+(PRIODIDAD ALTA - LARA)
+----------------------------------------------------------------------------------------------------*/
