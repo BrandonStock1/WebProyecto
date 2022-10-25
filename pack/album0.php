@@ -1,3 +1,10 @@
+<?php 
+    include_once("../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,117 +72,231 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="../paginas/index.html">Home</a></li>
-          <li><a href="../paginas/minijuegos.html">Minijuegos</a></li>
-          <li><a href="../paginas/tienda.html">Tienda</a></li>
-          <li><a href="../paginas/intercambio.html">Intercambio</a></li>
-          <li><a href="../paginas/contact.html">Contact</a></li>
+          <li><a href="../paginas/index.php">Home</a></li>
+          <li><a href="../paginas/minijuegos.php">Minijuegos</a></li>
+          <li><a href="../paginas/tienda.php">Tienda</a></li>
+          <li><a href="../paginas/intercambio.php">Intercambio</a></li>
+          <li><a href="../paginas/contact.php">Contact</a></li>
           <li><a href="../pack/album.php" class="active">Album</a></li>
-          <li><a href="../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <br>
-  <br>
-
 <body style="background-image: url('../assets/img/negro.png');">
 
   <div>
+
       <a class="carousel-control-prev" href="../pack/album.php" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
 
-      <section id="intercambio" class="intercambio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
-
-        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-            <li><a href="../pack/album.php">Principal</a></li>
-            <li><a href="../pack/album0.php" class="active">Principal2</a></li>
-            <li><a href="../pack/A/grupo-A.html">Grupo A</a></li>
-            <li><a href="../pack/B/grupo-B.html">Grupo B</a></li>
-            <li><a href="../pack/C/grupo-C.html">Grupo C</a></li>
-            <li><a href="../pack/D/grupo-D.html">Grupo D</a></li>
-            <li><a href="../pack/E/grupo-E.html">Grupo E</a></li>
-            <li><a href="../pack/F/grupo-F.html">Grupo F</a></li>
-            <li><a href="../pack/G/grupo-G.html">Grupo G</a></li>
-            <li><a href="../pack/H/grupo-H.html">Grupo H</a></li>
-          </ul>
-
-          <br><br><br>
-
-          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Agosto">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Septiembre"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Septiembre">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Septiembre"></a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        
-
-      </div>
-    </section>
-
       <a class="carousel-control-next" href="../pack/A/grupo-A.html" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
+      
+      <section id="alb" class="alb">
+        <div class="container" data-aos="fade-up">
+  
+          <br>
+
+          <div class="portfolio-isotope" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+  
+            <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+              <li><a href="../pack/album.php">Principal</a></li>
+              <li><a href="../pack/album0.php" class="filter-active">Principal2</a></li>
+              <li><a href="../pack/A/grupo-A.html">Grupo A</a></li>
+              <li><a href="../pack/B/grupo-B.html">Grupo B</a></li>
+              <li><a href="../pack/C/grupo-C.html">Grupo C</a></li>
+              <li><a href="../pack/D/grupo-D.html">Grupo D</a></li>
+              <li><a href="../pack/E/grupo-E.html">Grupo E</a></li>
+              <li><a href="../pack/F/grupo-F.html">Grupo F</a></li>
+              <li><a href="../pack/G/grupo-G.html">Grupo G</a></li>
+              <li><a href="../pack/H/grupo-H.html">Grupo H</a></li>
+            </ul>
+  
+  
+            <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200" style="background-image: url('../assets/img/Argentina-flag-panoram.jpg');" width="960px" height="332px">
+  
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-2 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Grupo A</h4>
+                    <p>
+                      Brandon Stock <br>
+                      163cm <br>
+                      60kg
+                    </p>
+                    <a href="../assets/img/figu.jpg"></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
-    
+
 </body>
 
 
