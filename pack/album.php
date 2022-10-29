@@ -35,6 +35,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+
+
 </head>
 
 <body>
@@ -99,7 +101,7 @@
   
               <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid">
+                  <img src="../assets/img/eeb.jpg" class="img-fluid">
                   <div class="portfolio-info">
                     <h4>Grupo A</h4>
                     <p>
@@ -121,149 +123,6 @@
                       163cm <br>
                       60kg
                     </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-4 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-lg-2 col-md-4 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <a href="../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-4 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-4 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../assets/img/figu.jpg"></a>
                   </div>
                 </div>
               </div>

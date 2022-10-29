@@ -1,3 +1,10 @@
+<?php 
+    include_once("../../mysql_functions.php");
+    session_start();
+    if (!isset ($_SESSION ["username"])){
+      echo "<script>window.location.replace('./login.php')</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,27 +35,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <style>
-        body {
-            overflow: hidden;
-            background-image: url("black.jpg");
-            background-size: cover;
-            background-position: center center;
-
-        }
-
-
-        #album {
-            margin: 5% auto;
-            background-position: center center;
-            width: 1000px;
-            height: 500px;
-        }
-
-        #album.turn-page {
-            background-size: 100% 100%;
-        }
-    </style>
+  
 
 </head>
 
@@ -71,7 +58,7 @@
           <li><a href="../../paginas/intercambio.html">Intercambio</a></li>
           <li><a href="../../paginas/contact.html">Contact</a></li>
           <li><a href="../../pack/album.php" class="active">Album</a></li>
-          <li><a href="../../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i></a></li>
+          <li><a href="../../paginas/sesion.html"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
         </ul>
       </nav>
     </div>
@@ -112,16 +99,11 @@
   
             <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200" style="background-image: url('../../assets/img/Argentina-flag-panoram.jpg');" width="960px" height="332px">
   
-              <div class="col-lg-2 col-md-4 portfolio-item">
+            <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
+                    <h4>ESCUDO</h4>
                   </div>
                 </div>
               </div>
@@ -130,13 +112,21 @@
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>PORTERO</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 80";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
@@ -145,22 +135,44 @@
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>DEFENSA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 81";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
   
               <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
-                  <img src="../../assets/img/figu.jpg" width= "200PX" height= "252px" class="img-fluid" alt="">
+                  <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <a href="../../assets/img/figu.jpg" data-gallery="portfolio-gallery-Agosto"></a>
+                    <h4>DEFENSA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 82";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
@@ -169,13 +181,43 @@
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>DEFENSA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 83";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 portfolio-item">
+                <div class="portfolio-content">
+                  <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>DEFENSA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 84";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
@@ -184,108 +226,144 @@
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>DEFENSA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 85";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
+              <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>MEDIOCAMPO</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 86";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
+              <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>MEDIOCAMPO</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 87";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
+              
+              <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>MEDIOCAMPO</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 88";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
+             
+              <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>DELANTERA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 89";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
+            
+              <div class="col-lg-2 col-md-4 portfolio-item">
                 <div class="portfolio-content">
                   <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
+                    <h4>DELANTERA</h4>
+                    <?php 
+                    $query = "SELECT * FROM jugadores WHERE id = 90";
+                    $result = DB::getInstance()->query($query);
+                    if($result->count() != 0){
+                      foreach($result->results() as $fila){
+                echo '<p>
+                    '.$fila->nombre_y_apellido.' <br>
+                    '.$fila-> edad.' años <br>
+                    '.$fila->peso.'kg <br>
+                    '.$fila-> altura.'cm <br>
+                </p>';
+            }
+        }
+        ?>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-md-2 portfolio-item">
-                <div class="portfolio-content">
-                  <img src="../../assets/img/figu.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Grupo A</h4>
-                    <p>
-                      Brandon Stock <br>
-                      163cm <br>
-                      60kg
-                    </p>
-                    <a href="../../assets/img/figu.jpg"></a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+      </div>
 
 
             <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
