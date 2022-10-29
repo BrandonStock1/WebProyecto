@@ -2488,4 +2488,52 @@ section {
   background-size: cover;
 }
 
+/*----------------------------------------------------------------------------------------------------------------------
+# Paquetes!!!
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.hero5 .info .btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  border: 2px solid var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.hero5 .info .btn-get-started:hover {
+  background: var(--color-primary);
+}
+
+.alb5 .portfolio-content img {
+  position: relative;
+  overflow: hidden;
+  width: 180px;
+  height: 227px;
+  margin: 20px 20px;
+  align-content: center;
+  transition: 0.3s;
+}
+
+.alb5 .portfolio-container{
+padding: 5% 8%;
+margin: 0% 0%;
+}
+
+body abody{
+  background-image: url('../../assets/img/bordo.jpg');
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
 
