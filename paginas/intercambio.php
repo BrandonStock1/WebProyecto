@@ -52,7 +52,7 @@
           <li><a href="../paginas/tienda.php">Tienda</a></li>
           <li><a href="../paginas/intercambio.php" class="active" >Intercambio</a></li>
           <li><a href="../paginas/contact.php">Contact</a></li>
-          <li><a href="../pack/album.php">Album</a></li>
+          <li><a href="../pack/PRES/copa.php">Album</a></li>
           <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
         </ul>
       </nav>

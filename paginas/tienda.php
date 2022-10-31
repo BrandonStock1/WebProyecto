@@ -53,7 +53,7 @@
           <li><a href="../paginas/tienda.php" class="active" >Tienda</a></li>
           <li><a href="../paginas/intercambio.php">Intercambio</a></li>
           <li><a href="../paginas/contact.php">Contact</a></li>
-          <li><a href="../pack/album.php">Album</a></li>
+          <li><a href="../pack/PRES/copa.php">Album</a></li>
           <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?> </a></li>
         </ul>
       </nav>
@@ -78,7 +78,7 @@
      <section id="recent-blog-posts" class="recent-blog-posts">
       <div class="container" data-aos="fade-up">
     
-  <div class=" section-header">
+      <div class=" section-header">
         <h2>Tienda</h2>
         <p>Tienda donde se compran los sobres para poder lograr nuestro objetivo.</p>
       </div>
@@ -111,7 +111,7 @@
 
             <hr>
 
-            <a href="../pack/paquete5n.php" class="readmore stretched-link"><span>Comprar por 150 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete5n/paquete5n.php" class="readmore stretched-link"><span>Comprar por 150 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>
@@ -142,7 +142,7 @@
             
             <hr>
 
-            <a href="../pack/paquete10n.php" class="readmore stretched-link"><span>Comprar por 250 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete10n/paquete10n.php" class="readmore stretched-link"><span>Comprar por 250 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>
@@ -173,7 +173,7 @@
 
             <hr>
 
-            <a href="../pack/paquete15n.php" class="readmore stretched-link"><span>Comprar por 400 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete15n/paquete15n.php" class="readmore stretched-link"><span>Comprar por 400 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>
@@ -207,7 +207,7 @@
 
             <hr>
 
-            <a href="../pack/paquete5o.php" class="readmore stretched-link"><span>Comprar por 350 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete5o/paquete5o.php" class="readmore stretched-link"><span>Comprar por 350 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>
@@ -238,7 +238,7 @@
 
             <hr>
 
-            <a href="../pack/paquete5b.php" class="readmore stretched-link"><span>Comprar por 500 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete5b/paquete5b.php" class="readmore stretched-link"><span>Comprar por 500 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>
@@ -269,7 +269,7 @@
 
             <hr>
 
-            <a href="../pack/paquete30n.php" class="readmore stretched-link"><span>Comprar por 600 </span><i class="bi bi-coin"></i></a>
+            <a href="../pack/paquete30n/paquete30n.php" class="readmore stretched-link"><span>Comprar por 600 </span><i class="bi bi-coin"></i></a>
 
           </div>
         </div>

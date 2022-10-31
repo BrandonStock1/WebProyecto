@@ -56,7 +56,7 @@
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Compra el sobre de <br><span>5 Figuritas random</span></h2>
             <p data-aos="fade-up">Ten en cuenta que obtendras 5 figuritas random, pero se te restara el gasto del precio del sobre (150 coins)</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="paquete-mostrar5n.html" class="btn-get-started">Confirmar compra</a>
+            <a data-aos="fade-up" data-aos-delay="200" href="paquete-mostrar5o.html" class="btn-get-started">Confirmar compra</a>
           </div>
         </div>
       </div>

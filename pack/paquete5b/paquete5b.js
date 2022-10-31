@@ -16,9 +16,6 @@ image_array = [
 
   ]
   
-
-  window.setTimeout(get_random_image, 3000);
-
   function get_random_image(){
       // Get a random index
     random_index1 = Math.floor(Math.random() * image_array.length);
@@ -44,9 +41,9 @@ image_array = [
     document.getElementById('image_shower5').src = `../../assets/pics/${selected_image5}`
 
       
+    
+    
     document.getElementById(visualizar).style.visibility = "hidden";
-    }
-  
-
-
+    
+  }
   

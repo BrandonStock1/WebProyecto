@@ -723,6 +723,7 @@ section {
 /*--------------------------------------------------------------
 # Our Projects Section
 --------------------------------------------------------------*/
+
 .intercambio .portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -2513,27 +2514,69 @@ section {
 .alb5 .portfolio-content img {
   position: relative;
   overflow: hidden;
-  width: 180px;
-  height: 227px;
+  width: 197px;
+  height: 237px;
   margin: 20px 20px;
   align-content: center;
   transition: 0.3s;
 }
 
-.alb5 .portfolio-container{
-padding: 5% 8%;
-margin: 0% 0%;
+.alb5{
+  margin: 0% 0%;
 }
 
-body abody{
-  background-image: url('../../assets/img/bordo.jpg');
-  position: absolute;
+.alb5 .portfolio-container{
+padding: 0% 7.5%;
+margin-top: 10px;
+}
+
+body .fondo{
+  background-image: url('../../assets/img/AlBayt-n.jpg');
   inset: 0;
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
   z-index: 1;
-  transition-duration: 0.4s;
 }
 
+.section-headeralb {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-top: 0%;
+}
+
+.section-headeralb h2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+}
+
+.section-headeralb h2:before,
+.section-headeralb h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+.section-headeralb h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-heaheaderalbder h2:after {
+  margin: 0 0 10px 15px;
+}
+  
+.section-headeralb p {
+  margin: 0 auto 0 auto;
+  color: #fff;
+}
+
+@media (min-width: 1199px) {
+  .section-headeralb p {
+    max-width: 60%;
+  }
+}

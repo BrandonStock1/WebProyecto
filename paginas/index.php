@@ -52,7 +52,7 @@
           <li><a href="../paginas/tienda.php">Tienda</a></li>
           <li><a href="../paginas/intercambio.php">Intercambio</a></li>
           <li><a href="../paginas/contact.php">Contact</a></li>
-          <li><a href="../pack/album.php">Album</a></li>
+          <li><a href="../pack/PRES/copa.php">Album</a></li>
           <li><a href="../paginas/sesion.php"><i class="bi bi-person-fill flex-shrink-0" style= "font-size: 17px"></i> - <?php echo $_SESSION["username"];?></a></li>
 
         </ul>
@@ -69,7 +69,7 @@
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Bienvenido al album de <span>QATAR 2022</span></h2>
             <p data-aos="fade-up">Divertite coleccionando las figuritas del mundial de QATAR 2022 de forma digital, pero para poder conseguir figuritas vas a necesitar jugar una serie de minijuegos con los que podras conseguir monedas que servirán para comprar los paquetes</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="../pack/album.php" class="btn-get-started">Comenzar</a>
+            <a data-aos="fade-up" data-aos-delay="200" href="../pack/PRES/copa.php" class="btn-get-started">Comenzar</a>
           </div>
         </div>
       </div>
